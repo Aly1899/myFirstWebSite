@@ -1,23 +1,33 @@
-* {box-sizing: border-box;
+body {
+    font-family: "consolas",sans-serif;
+    background-image: url(assets/topography.png);
+    background-size: auto;
+    background-position: 0 50px;
 }
 
-body {
-    font-family: "Open Sans";
-    margin: 5%
+.content {
+    padding: 0 10%
+}
+
+hr {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
 }
 
 .topNav {
-    background-color: black;
+    background-color: #333333;
     overflow: hidden;
     margin-bottom: 20px;
 }
          
 
 .topNav a {
-    float: left;
-    color: #f2f2f2;
+    float: right;
+    color: #ff0099;
     text-align: center;
-    padding: 10px;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+    padding:10px;
     text-decoration: none;
     font-size: 17;
 }
@@ -26,54 +36,21 @@ body {
     background-color: #dddd;
     color: black;
     position: relative;
+}
     
+h1 {
+    font-size: 80px;
+    text-align: left;
+    /*padding-left: 20%;*/
+    margin-top: 10%;
+    margin-bottom: 20px;
 }
 
-/*.banner {
-    position: relative;
-}
-*/
-    
+h2 {
+    font-size: 40px;
+    color: #ff0099;
+    text-align: left;
+    /*padding-left: 20%;*/
+    margin-top: 0.5%;
 
-.container .img {
-    vertical-align: middle;    
 }
-
-.container {
-    position: relative;
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-.container .content {
-    position: absolute;
-    bottom: 110px;
-    background: rgb(0,0,0);
-    background: rgba(0,0,0,0.5);
-    color: #f1f1f1;
-    width:463px;
-    padding-left: 50;
-    margin-bottom: 0px;
-    /*padding: 50px,50px,50px,50px;*/
-    
-}
-
-.content h1{
-    margin-bottom: 0px;
-}
-.content h2{
-    with:800px;
-    font-size: 14;
-    padding-left: 90px;
-    padding-bottom: 30px;
-    padding-top:0px;
-    margin-top: 0px;
-}
-
-.container .floating_text{
-    position: relative;
-    padding-right: 50px;
-    bottom:500px;
-    left: 500px;
-    width: 50%;
-    
