@@ -1,3 +1,7 @@
+* {padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: "consolas",sans-serif;
     background-image: url(assets/topography.png);
@@ -20,7 +24,11 @@ hr {
     margin-bottom: 20px;
 }
          
-
+.topNav img{
+    padding-left: 50px;
+    padding-top: 10px;
+    max-height: 20px;
+}
 .topNav a {
     float: right;
     color: #ff0099;
@@ -53,4 +61,15 @@ h2 {
     /*padding-left: 20%;*/
     margin-top: 0.5%;
 
+}
+
+h3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+p {
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
